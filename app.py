@@ -51,7 +51,7 @@ init_db()
 # Landing Page
 @app.route('/')
 def landing():
-    return render_template('landingpage.html')
+    return "Website is working"
 
 
 # 🔐 LOGIN
